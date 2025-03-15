@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\*\shell\PeaZip_AddToRAR]
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\Directory\shell\PeaZip_AddToRAR]
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\*\shell\PeaZip_AddToRAR]
+"MUIVerb"="Add to RAR (PeaZip)"
+"Icon"="C:\\Program Files\\PeaZip\\res\\share\\icons\\peazip_rar.icl,10"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\*\shell\PeaZip_AddToRAR\command]
+@="\"C:\\Program Files\\PeaZip\\PEAZIP.EXE\" \"-add2multiarc\" \"%1\" -ext rar"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Directory\shell\PeaZip_AddToRAR]
+"MUIVerb"="Add to RAR (PeaZip)"
+"Icon"="C:\\Program Files\\PeaZip\\res\\share\\icons\\peazip_rar.icl,10"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Directory\shell\PeaZip_AddToRAR\command]
+@="\"C:\\Program Files\\PeaZip\\PEAZIP.EXE\" \"-add2multiarc\" \"%1\" -ext rar"
